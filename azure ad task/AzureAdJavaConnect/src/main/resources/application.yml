@@ -1,0 +1,13 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          aad:
+            client-id: c3bfbf26-e9e9-4714-9df8-002bed9ebe4b
+            client-secret: w8Z8Q~y6gU6jZqC~zkWKM429yD33kA5HK7utsas0
+            scope: openid+profile+email
+            client-name: Login with Azure Ad Credentials
+        provider:
+          aad: 
+            issuer-uri: https://login.microsoftonline.com/fb3ab970-b26d-4a66-87a5-8b3e145c0a78/v2.0

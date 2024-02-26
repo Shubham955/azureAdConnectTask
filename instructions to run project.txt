@@ -1,0 +1,7 @@
+Run Spring tool Suite application and select workspace as "azureAdConnectTask\azure ad task" means select "azure ad task" folder
+run project as spring boot app
+go to URL: http://localhost:8080/login
+
+Credentials are:
+username: aadTestUser@Shubham190821outlook.onmicrosoft.com
+password: Candice@123
